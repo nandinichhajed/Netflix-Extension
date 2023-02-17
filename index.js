@@ -5,12 +5,14 @@ const runNetflix = () => {
         document.querySelector(".hybrid-login-form-other").style.display =
             "none";
         document.querySelector(".svg-icon-netflix-logo").style.display = "none";
+        document.querySelector(".site-footer-wrapper").style.display = "none";
+        document.querySelector(".hybrid-login-form-signup").style.minHeight =
+            "200px";
 
-        const logo = document.querySelector(".signupBasicHeader");
-
-        const img = document.createElement("img");
-        img.src = "https://picsum.photos/200/301";
-        logo.appendChild(img);
+        // const logo = document.querySelector(".signupBasicHeader");
+        // const img = document.createElement("img");
+        // img.src = "https://picsum.photos/200/301";
+        // logo.appendChild(img);
     } catch (error) {}
 };
 
