@@ -1,6 +1,6 @@
 {
-    "name": "Tudu Extension",
-    "description": "A Tudu Extension from Chuza the great",
+    "name": "Netflix Extension",
+    "description": "A Netflix Extension to modify site",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
