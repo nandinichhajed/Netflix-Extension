@@ -1,13 +1,18 @@
 {
-    "name": "Netflix Extension",
-    "description": "A Netflix Extension to modify site",
-    "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": ["storage", "activeTab", "scripting"],
-    "action": {
-        "default_popup": "popup.html"
-    }
+    "name": "Tudu Extension",
+    "description": "This is tudu Extension for netflixu, a cute extension like chuza the great",
+    "version": "1.0",
+    "author": "Chuza the great",
+    "content_scripts": [
+        {
+            "css": ["style.css"],
+            "matches": [
+                "https://www.netflix.com/*/login",
+                "https://www.netflix.com/*/Login",
+                "https://www.netflix.com/login",
+                "https://www.netflix.com/Login"
+            ]
+        }
+    ]
 }

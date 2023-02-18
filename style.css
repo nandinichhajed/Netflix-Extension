@@ -1,0 +1,10 @@
+.hybrid-login-form-help,
+.hybrid-login-form-other,
+.site-footer-wrapper,
+.svg-icon-netflix-logo {
+    display: none !important;
+}
+
+.hybrid-login-form-signup {
+    min-height: 200px !important;
+}
