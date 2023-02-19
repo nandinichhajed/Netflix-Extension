@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Tudu Extension",
-    "description": "This is tudu Extension for netflixu, a cute extension like chuza the great",
+    "name": "Nandini Chhajed",
+    "description": "This is an Extension for Netflix modification",
     "version": "1.0",
     "author": "Chuza the great",
     "content_scripts": [
