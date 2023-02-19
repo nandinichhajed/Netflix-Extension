@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Nandini Chhajed",
+    "name": "Netflix Extension",
     "description": "This is an Extension for Netflix modification",
     "version": "1.0",
-    "author": "Chuza the great",
+    "author": "Nandini Chhajed",
     "content_scripts": [
         {
             "js": ["index.js"],
