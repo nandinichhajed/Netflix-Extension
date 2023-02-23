@@ -4,6 +4,9 @@
     "description": "This is an Extension for Netflix modification",
     "version": "1.0",
     "author": "Nandini Chhajed",
+    "icons": {
+        "128": "images/netflix.png"
+      },
     "content_scripts": [
         {
             "js": ["index.js"],
